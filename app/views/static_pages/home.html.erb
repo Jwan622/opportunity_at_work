@@ -1,0 +1,33 @@
+<% content_for :body_class, "main-bg-yellow" %>
+
+<section class="mod-hero">
+  <h1>￼Connecting businesses, communities and the tech talent pipeline</h1>
+  <p class="actions">
+    <%= link_to "Learn more", learn_more_path, class: "button"%>
+    <%= link_to "Sign up", signup_path, class: "button"%>
+  </p>
+</section>
+
+<section class="mod-stories layout-wrap">
+  <div class="story">
+    <h1>How LaShana did it</h1>
+    <div class="embed-container">
+      <iframe frameborder="0" src="https://www.youtube-nocookie.com/embed/3iiXLXo2hic?rel=0&amp;showinfo=0"></iframe>
+    </div>
+    <p><%= link_to "More stories from people who’ve been impacted by TechHire", "#" %></p>
+  </div>
+  <div class="story">
+    <h1>How Kickstarter did it</h1>
+    <div class="embed-container">
+      <iframe frameborder="0" src="https://www.youtube-nocookie.com/embed/3iiXLXo2hic?rel=0&amp;showinfo=0"></iframe>
+    </div>
+    <p><%= link_to "More stories from businesses who’ve been impacted by TechHire", "#" %></p>
+  </div>
+</section>
+
+<!--
+<div class="links col-md-12">
+  <#%= link_to "Sign In", new_user_session_path %>
+</div>
+-->
+
